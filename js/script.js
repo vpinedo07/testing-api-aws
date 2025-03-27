@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("http://54.224.133.169/api-php-world/api/get_countries.php")
+    fetch("http://52.90.68.129/api-php-world/api/get_countries.php")
         .then(response => response.json())
         .then(data => {
             const tableBody = document.getElementById("countriesTable");
